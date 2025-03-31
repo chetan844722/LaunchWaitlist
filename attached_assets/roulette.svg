@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="white" rx="80" ry="80"/>
+  
+  <!-- Roulette wheel outer ring -->
+  <circle cx="400" cy="400" r="250" fill="#333" stroke="#000" stroke-width="5"/>
+  <circle cx="400" cy="400" r="220" fill="#5D5FEF" stroke="#000" stroke-width="3"/>
+  
+  <!-- Wheel segments -->
+  <!-- Red segments -->
+  <path d="M400,400 L529,200 A220,220 0 0,0 491,183 Z" fill="#E40000"/>
+  <path d="M400,400 L345,185 A220,220 0 0,0 302,199 Z" fill="#E40000"/>
+  <path d="M400,400 L229,272 A220,220 0 0,0 200,315 Z" fill="#E40000"/>
+  <path d="M400,400 L183,455 A220,220 0 0,0 196,500 Z" fill="#E40000"/>
+  <path d="M400,400 L272,571 A220,220 0 0,0 315,600 Z" fill="#E40000"/>
+  <path d="M400,400 L455,617 A220,220 0 0,0 500,604 Z" fill="#E40000"/>
+  <path d="M400,400 L571,528 A220,220 0 0,0 600,485 Z" fill="#E40000"/>
+  <path d="M400,400 L617,345 A220,220 0 0,0 604,300 Z" fill="#E40000"/>
+  
+  <!-- Black segments -->
+  <path d="M400,400 L491,183 A220,220 0 0,0 448,174 Z" fill="#000"/>
+  <path d="M400,400 L302,199 A220,220 0 0,0 264,219 Z" fill="#000"/>
+  <path d="M400,400 L200,315 A220,220 0 0,0 180,360 Z" fill="#000"/>
+  <path d="M400,400 L196,500 A220,220 0 0,0 215,544 Z" fill="#000"/>
+  <path d="M400,400 L315,600 A220,220 0 0,0 360,620 Z" fill="#000"/>
+  <path d="M400,400 L500,604 A220,220 0 0,0 544,585 Z" fill="#000"/>
+  <path d="M400,400 L600,485 A220,220 0 0,0 620,440 Z" fill="#000"/>
+  <path d="M400,400 L604,300 A220,220 0 0,0 585,256 Z" fill="#000"/>
+  
+  <!-- Green zero segment -->
+  <path d="M400,400 L448,174 A220,220 0 0,0 400,180 Z" fill="#008000"/>
+  <path d="M400,400 L400,180 A220,220 0 0,0 345,185 Z" fill="#008000"/>
+  
+  <!-- Center -->
+  <circle cx="400" cy="400" r="50" fill="#333" stroke="#FFD700" stroke-width="5"/>
+  
+  <!-- Ball -->
+  <circle cx="525" cy="275" r="15" fill="#fff" stroke="#000" stroke-width="2"/>
+  
+  <!-- Betting table -->
+  <rect x="250" y="610" width="300" height="50" rx="5" ry="5" fill="#008000" stroke="#000" stroke-width="3"/>
+  
+  <!-- Betting chips -->
+  <circle cx="280" cy="635" r="20" fill="#E40000" stroke="#000" stroke-width="2"/>
+  <circle cx="330" cy="635" r="20" fill="#000" stroke="#fff" stroke-width="2"/>
+  <circle cx="380" cy="635" r="20" fill="#FFD700" stroke="#000" stroke-width="2"/>
+  <circle cx="430" cy="635" r="20" fill="#0000E4" stroke="#fff" stroke-width="2"/>
+  <circle cx="480" cy="635" r="20" fill="#fff" stroke="#000" stroke-width="2"/>
+  
+  <!-- Wheel spinner -->
+  <path d="M400,350 L450,300 L400,250 L350,300 Z" fill="#FFD700" stroke="#000" stroke-width="2"/>
+</svg>

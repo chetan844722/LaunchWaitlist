@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect x="10" y="10" width="80" height="80" fill="#f5f5dc" stroke="#333" stroke-width="2"/>
+  
+  <!-- Chessboard squares -->
+  <rect x="10" y="10" width="10" height="10" fill="#8b4513"/>
+  <rect x="30" y="10" width="10" height="10" fill="#8b4513"/>
+  <rect x="50" y="10" width="10" height="10" fill="#8b4513"/>
+  <rect x="70" y="10" width="10" height="10" fill="#8b4513"/>
+  
+  <rect x="20" y="20" width="10" height="10" fill="#8b4513"/>
+  <rect x="40" y="20" width="10" height="10" fill="#8b4513"/>
+  <rect x="60" y="20" width="10" height="10" fill="#8b4513"/>
+  <rect x="80" y="20" width="10" height="10" fill="#8b4513"/>
+  
+  <rect x="10" y="30" width="10" height="10" fill="#8b4513"/>
+  <rect x="30" y="30" width="10" height="10" fill="#8b4513"/>
+  <rect x="50" y="30" width="10" height="10" fill="#8b4513"/>
+  <rect x="70" y="30" width="10" height="10" fill="#8b4513"/>
+  
+  <rect x="20" y="40" width="10" height="10" fill="#8b4513"/>
+  <rect x="40" y="40" width="10" height="10" fill="#8b4513"/>
+  <rect x="60" y="40" width="10" height="10" fill="#8b4513"/>
+  <rect x="80" y="40" width="10" height="10" fill="#8b4513"/>
+  
+  <rect x="10" y="50" width="10" height="10" fill="#8b4513"/>
+  <rect x="30" y="50" width="10" height="10" fill="#8b4513"/>
+  <rect x="50" y="50" width="10" height="10" fill="#8b4513"/>
+  <rect x="70" y="50" width="10" height="10" fill="#8b4513"/>
+  
+  <rect x="20" y="60" width="10" height="10" fill="#8b4513"/>
+  <rect x="40" y="60" width="10" height="10" fill="#8b4513"/>
+  <rect x="60" y="60" width="10" height="10" fill="#8b4513"/>
+  <rect x="80" y="60" width="10" height="10" fill="#8b4513"/>
+  
+  <rect x="10" y="70" width="10" height="10" fill="#8b4513"/>
+  <rect x="30" y="70" width="10" height="10" fill="#8b4513"/>
+  <rect x="50" y="70" width="10" height="10" fill="#8b4513"/>
+  <rect x="70" y="70" width="10" height="10" fill="#8b4513"/>
+  
+  <rect x="20" y="80" width="10" height="10" fill="#8b4513"/>
+  <rect x="40" y="80" width="10" height="10" fill="#8b4513"/>
+  <rect x="60" y="80" width="10" height="10" fill="#8b4513"/>
+  <rect x="80" y="80" width="10" height="10" fill="#8b4513"/>
+  
+  <!-- Chess pieces (simplified) -->
+  <circle cx="15" cy="15" r="4" fill="black"/>
+  <circle cx="25" cy="15" r="4" fill="black"/>
+  <circle cx="35" cy="15" r="4" fill="black"/>
+  <path d="M45 11 L49 19 L41 19 Z" fill="black"/>
+  <path d="M55 11 L55 19 L51 15 L59 15 L55 19" fill="black" stroke="black" stroke-width="1"/>
+  <path d="M65 11 L69 19 L64 15 L69 15 L65 19" fill="black" stroke="black" stroke-width="1"/>
+  
+  <circle cx="15" cy="85" r="4" fill="white" stroke="#333" stroke-width="0.5"/>
+  <circle cx="25" cy="85" r="4" fill="white" stroke="#333" stroke-width="0.5"/>
+  <circle cx="35" cy="85" r="4" fill="white" stroke="#333" stroke-width="0.5"/>
+  <path d="M45 89 L49 81 L41 81 Z" fill="white" stroke="#333" stroke-width="0.5"/>
+  <path d="M55 89 L55 81 L51 85 L59 85 L55 81" fill="white" stroke="#333" stroke-width="0.5"/>
+  <path d="M65 89 L69 81 L64 85 L69 85 L65 81" fill="white" stroke="#333" stroke-width="0.5"/>
+</svg>

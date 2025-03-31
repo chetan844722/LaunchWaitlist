@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="white" rx="80" ry="80"/>
+  <circle cx="250" cy="300" r="100" fill="#FF5555"/>
+  <circle cx="400" cy="300" r="100" fill="#55FF55"/>
+  <circle cx="550" cy="300" r="100" fill="#5555FF"/>
+  <path d="M250 420L250 550L400 550L400 420" fill="#FFAA55"/>
+  <path d="M400 420L400 550L550 550L550 420" fill="#55AAFF"/>
+  <path d="M250 420L400 420M400 420L550 420M250 450L550 450M250 480L550 480M250 510L550 510M250 540L550 540" stroke="black" stroke-width="5"/>
+  <path d="M300 320L350 250M450 250L500 320" stroke="black" stroke-width="10" stroke-linecap="round"/>
+  <path d="M250 200L250 150L550 150L550 200" stroke="#5D5FEF" stroke-width="30" stroke-linecap="round"/>
+</svg>

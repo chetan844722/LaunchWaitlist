@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="white" rx="80" ry="80"/>
+  
+  <!-- First card (Ace of Spades) -->
+  <rect x="220" y="250" width="160" height="240" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="5"/>
+  
+  <!-- Spade -->
+  <path d="M300,290 C300,340 260,340 260,370 C260,400 320,420 320,420 C320,420 320,385 330,385 C340,385 340,420 340,420 C340,420 400,400 400,370 C400,340 360,340 360,290 Z" fill="#000"/>
+  
+  <!-- A in corners -->
+  <text x="235" y="280" font-family="Arial" font-size="30" fill="#000">A</text>
+  <text x="365" y="470" font-family="Arial" font-size="30" fill="#000">A</text>
+  
+  <!-- Second card (Jack of Clubs) -->
+  <rect x="350" y="320" width="160" height="240" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="5"/>
+  
+  <!-- Club -->
+  <path d="M430,370 C410,370 410,400 430,400 C410,420 410,450 430,450 C450,450 450,420 430,400 C450,400 450,370 430,370 Z" fill="#000"/>
+  
+  <!-- J in corners -->
+  <text x="365" y="350" font-family="Arial" font-size="30" fill="#000">J</text>
+  <text x="495" y="540" font-family="Arial" font-size="30" fill="#000">J</text>
+  
+  <!-- Chip stack in foreground -->
+  <circle cx="500" cy="250" r="60" fill="#E40000" stroke="#000" stroke-width="3"/>
+  <circle cx="500" cy="230" r="60" fill="#000" stroke="#E40000" stroke-width="3"/>
+  <circle cx="500" cy="210" r="60" fill="#0000E4" stroke="#000" stroke-width="3"/>
+  
+  <!-- Text on chips -->
+  <text x="485" y="255" font-family="Arial" font-size="20" fill="#fff">100</text>
+  <text x="490" y="235" font-family="Arial" font-size="20" fill="#fff">50</text>
+  <text x="490" y="215" font-family="Arial" font-size="20" fill="#fff">25</text>
+  
+  <!-- 21 text -->
+  <text x="370" y="180" font-family="Arial" font-weight="bold" font-size="60" fill="#5D5FEF">21</text>
+</svg>

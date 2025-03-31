@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="white" rx="80" ry="80"/>
+  
+  <!-- Slot machine body -->
+  <rect x="200" y="200" width="400" height="400" rx="20" ry="20" fill="#5D5FEF" stroke="#000" stroke-width="5"/>
+  
+  <!-- Display screen background -->
+  <rect x="230" y="230" width="340" height="240" rx="10" ry="10" fill="#222" stroke="#000" stroke-width="5"/>
+  
+  <!-- Slot reels -->
+  <rect x="250" y="250" width="90" height="200" rx="5" ry="5" fill="#fff" stroke="#000" stroke-width="3"/>
+  <rect x="355" y="250" width="90" height="200" rx="5" ry="5" fill="#fff" stroke="#000" stroke-width="3"/>
+  <rect x="460" y="250" width="90" height="200" rx="5" ry="5" fill="#fff" stroke="#000" stroke-width="3"/>
+  
+  <!-- Slot symbols -->
+  <!-- Reel 1: Cherry -->
+  <circle cx="295" cy="350" r="35" fill="#E40000"/>
+  <path d="M295,315 L295,295 Q310,280 275,280" stroke="#006400" stroke-width="5" fill="none"/>
+  
+  <!-- Reel 2: 7 -->
+  <text x="375" y="370" font-family="Arial" font-size="80" font-weight="bold" fill="#FFD700">7</text>
+  
+  <!-- Reel 3: Diamond -->
+  <path d="M505,350 L530,325 L505,300 L480,325 Z" fill="#00BFFF" stroke="#0000A0" stroke-width="3"/>
+  
+  <!-- Control panel -->
+  <rect x="230" y="490" width="340" height="80" rx="10" ry="10" fill="#333" stroke="#000" stroke-width="5"/>
+  
+  <!-- Spin button -->
+  <circle cx="400" cy="530" r="30" fill="#E40000" stroke="#000" stroke-width="3"/>
+  <text x="380" y="540" font-family="Arial" font-size="20" font-weight="bold" fill="#fff">SPIN</text>
+  
+  <!-- Bet buttons -->
+  <rect x="260" y="515" width="60" height="30" rx="5" ry="5" fill="#FFD700" stroke="#000" stroke-width="2"/>
+  <text x="270" y="535" font-family="Arial" font-size="16" fill="#000">BET</text>
+  
+  <rect x="480" y="515" width="60" height="30" rx="5" ry="5" fill="#FFD700" stroke="#000" stroke-width="2"/>
+  <text x="485" y="535" font-family="Arial" font-size="16" fill="#000">MAX</text>
+</svg>
